@@ -73,10 +73,12 @@ a {
   font-size: 1.8rem;
   font-weight: 600;
   border-radius: 14px;
+  box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
 }
 .btn:hover {
-  box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
-  opacity: 0.8;
+  color: var(--primary-color);
+  background-color: #fff;
+  border-color: var(--primary-color);
 }
 
 /* Header */
@@ -122,7 +124,8 @@ a {
   color: var(--primary-color);
 }
 .header .action .sign-up-btn:hover {
-  opacity: 0.7;
+  color: #fff;
+  background-color: var(--primary-color);
 }
 .header .action .sign-in-btn {
   color: #494949;
